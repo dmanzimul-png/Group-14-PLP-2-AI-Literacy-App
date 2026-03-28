@@ -69,7 +69,7 @@ def handle_register():
         age_choice = input("  Choose (1-4)  : ").strip()
         if age_choice in ("1", "2", "3", "4"):
             age_group = VALID_AGE_GROUPS[int(age_choice) - 1]
-            success, message = register_user(username, password, age_group, email)
+            success, message = register_user(username, email, password, age_group)
             print(f"\n  {message}")
         else:
             print("  Invalid choice. Please enter 1, 2, 3, or 4.")
