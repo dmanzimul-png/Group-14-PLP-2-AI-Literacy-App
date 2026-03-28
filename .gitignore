@@ -1,1 +1,11 @@
+# Database — auto-generated locally, different for each machine
+quiz_app.db
+
+# Python cache files — auto-generated, not needed in repo
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables — never commit secrets
+.env
 
